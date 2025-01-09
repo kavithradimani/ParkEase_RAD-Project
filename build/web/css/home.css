@@ -1,0 +1,180 @@
+/* Add custom styles here */
+
+.hero {
+    
+    
+    padding: 150px 0;
+    position: relative;
+  }
+  
+   .hero::before {
+    content: "";
+    background-image: url("../images/parking-image.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.8; /* Adjust the opacity to make the image semi-transparent */
+}
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+  }
+  
+  .hero-subtitle {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .hero:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha value for darkness */
+    z-index: -1; /* Place the overlay behind the content */
+}
+  
+  .customer-count {
+    font-size: 18px;
+    color: #333333;
+  }
+  
+  .features {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .feature-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .feature-item i {
+    font-size: 48px;
+    color: #007bff;
+    margin-bottom: 20px;
+  }
+  
+  .feature-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 10px;
+  }
+  
+  .feature-description {
+    font-size: 18px;
+    color: #666666;
+  }
+  
+  .reviews {
+    padding: 100px 0;
+    background-color: #ffffff;
+  }
+  
+  .review-item {
+    margin-bottom: 40px;
+  }
+  
+  .review-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .customer-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .customer-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .customer-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 5px;
+  }
+  
+  .customer-location {
+    font-size: 14px;
+    color: #666666;
+  }
+  
+  .review-text {
+    font-size: 16px;
+    color: #333333;
+  }
+  
+  .contact {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .contact-description {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 30px;
+  }
+  
+  .contact-details li {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 15px;
+  }
+  
+  .social-icons {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    color: #333333;
+    margin: 0 10px;
+  }
+  
+  .footer {
+    background-color: #333333;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  .footer p {
+    color: #ffffff;
+    margin: 0;
+  }
+  /*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Aug-2023, 22:22:15
+    Author     : Anuranga
+*/
+

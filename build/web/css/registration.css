@@ -1,0 +1,36 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Aug-2023, 18:59:28
+    Author     : Anuranga
+*/
+
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .registration-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .registration-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .registration-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .registration-form label {
+    font-weight: bold;
+  }
+  

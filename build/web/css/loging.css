@@ -1,0 +1,40 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11-Aug-2023, 17:27:15
+    Author     : Anuranga
+*/
+@import url('https://fonts.googleapis.com/css2?family Poppins&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+html,body{
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-image: url("https://cdn.eyeem.com/thumb/5db7871343be2c1b2dc056b73f0769e4a7fdf0d3-1606968701393/w/800");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+.log{
+    font-size: 37px;
+}
+
+.full{
+  overflow: hidden;
+  max-width: 390px;
+  background-color: rgba(246, 240, 240, 0.8);
+  padding: 30px;
+  border-radius: 25px;
+  box-shadow: 0px 15px 20px rgba(0,0,0,0.1);
+}
